@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'pokemon';
+    src: url('../fontes/Pokemon\ Solid.ttf') format('truetype');
+}
+
+:root {
+    --cor1: #D20000;
+    --cor2: #F2CD47;
+    --cor3: #002EF7;
+    --cor4: #220101f0;
+
+    --fonte1: Arial, Helvetica, sans-serif;
+    --fonte2: 'Bebas Neue', cursive;
+    --fonte3: 'pokemon';
+}
+
+body {
+    background-color: rgba(250, 241, 224, 0.377);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor4)) ;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    box-shadow: 3px 7px 9px rgba(0, 0, 0, 0.192);
+}
+
+header > h1 {
+    color: white;
+    font-family: var(--fonte2);
+    font-size: 2.2em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.263);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+header > p {
+    color: white;
+    font-family: var(--fonte2);
+    font-size: 1.1em;
+    max-width: 500px;
+    margin: auto;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.163);   
+}
+
+main {
+    background-color: white;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main h1 {
+    font-family: var(--fonte1);
+    font-size: 2.3em;
+    font-weight: normal;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.118);
+}
+
+main h2 {
+    font-family: var(--fonte1);
+    font-size: 1.6em;
+    font-weight: normal;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.164);
+    padding-bottom: 20px;
+}
+
+main p {
+    text-align: justify;
+    line-height: 2em;
+    font-family: var(--fonte1);
+    font-size: 1em;
+    text-indent: 30px;
+    margin: 15px 0px;
+}
+
+main img {
+    width: 97%;
+}
+
+.imagem {
+    background-color: black;
+    height: 600px;
+    background-image: url('../imagens/megalatios.jpg');
+    background-position: center left;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#imagem1 {
+    background-color: black;
+    height: 600px;
+    background-image: url('../imagens/charizard.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.paragrafo {
+    padding-top: 20px;
+}
+
+main strong {
+    color: var(--cor1);
+    font-weight: bolder;
+}
+
+aside {
+    background-color: var(--cor2);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 7px 1px 9px rgba(0, 0, 0, 0.196);
+}
+
+aside ul {
+    list-style-position: inside;
+}
+
+footer {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor4)) ;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+footer > p {
+    font-family: var(--fonte1);
+}
+
+footer a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
