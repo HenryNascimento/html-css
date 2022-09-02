@@ -24,20 +24,20 @@ h1 {
 }
 
 section:nth-of-type(1) {
-    background-image: url('../imagens/charizard.jpg');
+    background-image: url('../imagens/pikachu2.jpg');
 }
 
 
 section:nth-of-type(3) {
-    background-image: url('../imagens/mewtwo.jpg');
+    background-image: url('../imagens/celular1.jpg');
 }
 
 
 section:nth-of-type(5) {
-    background-image: url('../imagens/megalatios.jpg');
+    background-image: url('../imagens/pokebola4.jpg');
 }
 
 
 section:nth-of-type(7) {
-    background-image: url('../imagens/gengar.jpg');
+    background-image: url('../imagens/pikachu3.jpg');
 }
